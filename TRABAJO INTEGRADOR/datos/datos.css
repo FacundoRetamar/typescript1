@@ -1,0 +1,47 @@
+body{
+    background-image: url(../img/fondo.png);
+    opacity: 96%;
+    background-size: cover;
+    display: flexbox;
+    padding: 10;
+    align-content: space-around;
+}
+.text{
+    text-align: center;
+    text-shadow: 2px solid rgb(218, 101, 7);
+    font-family: 'Luckiest Guy', cursive;
+    text-transform: uppercase;
+    color: rgb(233, 225, 219);
+    margin-bottom: 20px;
+}
+.form-fond{
+    background-image: url(../img/nav.png);
+    background-size: cover;
+    margin-top: 80px;
+    padding: 20px;
+}
+input:hover{
+    flex: 1;
+    border:2px solid rgb(224, 191, 3);
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+#inic{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    margin-bottom: 50px;
+  }
+  #link{
+    width: 45px;
+  }
+  .foot{
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
