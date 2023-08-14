@@ -3,7 +3,7 @@ formulario.addEventListener( "submit", validarFormulario )
 
 
 function validarFormulario(e){ /* funcion del formulario para verlo por consola*/
-    e.preventDefault();
+    e.preventDefault();  
     const nombre = document.querySelector("#nombre").value
     const edad = document.querySelector("#edad").value
     const poder = document.querySelector("#poder").value
