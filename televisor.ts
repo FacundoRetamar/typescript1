@@ -1,7 +1,7 @@
 class Televisor {
-    private encendido: boolean;
-    private volumen: number;
-    private canal: number;
+    encendido: boolean;
+    volumen: number;
+    canal: number;
 
     constructor() {
         this.encendido = false;
@@ -55,7 +55,8 @@ class Televisor {
     }
 }
 
-// Ejemplo de uso
+/*MODO DE USO*/
+
 const miTelevisor = new Televisor();
 miTelevisor.encender();
 miTelevisor.cambiarCanal(8);

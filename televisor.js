@@ -51,7 +51,8 @@ var Televisor = /** @class */ (function () {
     };
     return Televisor;
 }());
-// Ejemplo de uso
+/* Modo de uso*/
+
 const miTelevisor = new Televisor();
 miTelevisor.encender();
 miTelevisor.cambiarCanal(8);
